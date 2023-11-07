@@ -53,7 +53,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # load berkas all_data.csv sebagai sebuah DataFrame
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("dashboard/main_data.csv")
 
 # mengurutkan DataFrame berdasarkan order_purchase_timestamp serta memastikan bertipe datetime
 datetime_columns = ["order_purchase_timestamp"]
